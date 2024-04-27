@@ -1,0 +1,32 @@
+.legend{
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+}
+
+.fieldset{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: none;
+	padding-top: 20px;
+	gap: 10px;
+
+	@media (max-width: 820px) {
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.form_input{
+	padding: 8px 12px; 
+  font-size: 16px; 
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  outline: none; 
+}
+
+.form_input:focus {
+  border-color: #007bff; 
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25); 
+}

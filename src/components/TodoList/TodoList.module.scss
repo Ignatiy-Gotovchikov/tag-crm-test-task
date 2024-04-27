@@ -1,0 +1,26 @@
+.container{
+	margin-top: 100px;
+}
+
+
+.list_item{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	gap: 30px;
+	font-size: 24px;
+
+}
+
+.info_block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  @media (max-width: 820px) {
+    flex-direction: column;
+    align-items: start;
+  }
+}
